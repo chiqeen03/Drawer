@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/IronMan"
+                android:icon="@drawable/ic_captainamerica"
+                android:title="IronMan"/>
+        <item
+                android:id="@+id/CaptainAmerica"
+                android:icon="@drawable/ic_captainamerica"
+                android:title="Captain America"/>
+        <item
+                android:id="@+id/BlackWidow"
+                android:icon="@drawable/ic_captainamerica"
+                android:title="Black Widow"/>
+        <item
+                android:id="@+id/Thor"
+                android:icon="@drawable/ic_captainamerica"
+                android:title="Thor"/>
+        <item
+                android:id="@+id/ScarletWitch"
+                android:icon="@drawable/ic_captainamerica"
+                android:title="Scarlet Witch"/>
+        <item
+                android:id="@+id/BruceBanner"
+                android:icon="@drawable/ic_captainamerica"
+                android:title="Bruce Banner"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share"/>
+        </menu>
+    </item>
+
+</menu>
